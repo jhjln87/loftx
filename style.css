@@ -1,18 +1,78 @@
- @import url(https://fonts.cdnfonts.com/css/luminari);
-           body {
-                background-color: #f2c185;
-              }
-            .backgroundImage {
-                position:fixed;
-                width:100%;
-            }
-            .middle {
-                position:fixed;
-                left:15%;
-                top:20%;
-                width:70%;
-            }
-            .center {
-                text-align:center;
-                font-family: 'Luminari'
-            }
+@import url(https://fonts.cdnfonts.com/css/luminari);
+        body {
+            background-image:url(https://t3.ftcdn.net/jpg/09/33/27/46/360_F_933274631_D2h4BsELriWl2MKIEOouKLI8FtAc8YOH.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: #f2c185;
+        }
+        h1 {
+            text-align:center;
+            margin-top:8%;
+            margin-bottom:45px;
+            font-size:75px;
+        }
+        .luminariText {
+            font-family:'Luminari';
+        }
+        .people {
+            position:absolute;
+            width:50%;
+            margin-top:45px;
+            min-height:180px;
+            max-height:200px;
+            overflow:hidden;
+        }
+        .descriptionsLeft {
+            position:absolute;
+            left:28%;
+            right:15%;
+        }
+        .descriptionsRight {
+            position:absolute;
+            text-align:right;
+            left:15%;
+            right:28%;
+        }
+        .left {left:5%}
+        .right {
+            right:5%;
+            float:right;
+        }
+        .d1 {top:390px;}
+        .d2 {top:600px;}
+        .d3 {top:810px;}
+        .d4 {top:480px;}
+        .d5 {top:690px;}
+        .d6 {top:900px;}
+        .pic {
+            position:absolute;
+            width:26%;
+        }
+        .homeButtons {
+            margin:0 auto;
+            width:70%;
+            height:75px;
+            background-color:#b89265;
+            position:relative;
+            border-radius:10px;
+        }
+        .buttons {
+            position:absolute;
+            background-color:#b89265;
+            width:20%;
+            height:75px;
+            text-align:center;
+            color:#fbecbb;
+            font-size:23px;
+        }
+        .b1 {border-radius: 10px 0px 0px 10px;}
+        .b2 {left:20%;}
+        .b3 {left:40%;}
+        .b4 {right:20%;}
+        .b5 {
+            right:0%;
+            border-radius: 0px 10px 10px 0px;
+        }
+        .buttons:hover {
+            background-color:#cfa572;
+        }
